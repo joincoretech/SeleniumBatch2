@@ -10,7 +10,8 @@ public class LoginTextDemo4 {
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://dreamhiringacademy.com/index.php");
-        driver.quit();
+        driver.findElement(By.cssSelector("h1.text-center.text-white"));
+       driver.quit();
 
     }
 }
