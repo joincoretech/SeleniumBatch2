@@ -1,8 +1,6 @@
 package Utiles;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import  org.apache.commons.io.FileUtils;
 import org.openqa.selenium.devtools.v85.io.IO;
@@ -33,6 +31,7 @@ public class CommonMethod {
          }
 
     }
+
 
     public static void teardown(){
         driver.quit();
